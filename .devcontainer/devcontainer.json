@@ -1,0 +1,9 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteEnv": {
+    "KAGGLE_USERNAME": "${localEnv:KAGGLE_USERNAME}",
+    "KAGGLE_KEY": "${localEnv:KAGGLE_KEY}"
+    }
+}
